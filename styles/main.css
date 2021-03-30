@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+/* ==========  Main stuff  ========== */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: baseline;
+    line-height: 1.5em;
+}
+
+:root {
+    --siva: #353535;
+    --zelena: #71c837;
+    --bela: #fff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-hero {
+    background-color: var(--siva);
+}
+
+.web-dev-section {
+    background-color: var(--siva);
+}
+
+.web-design {
+    background-color: var(--siva);
+}
+
+.mob-dev {
+    background-color: var(--siva);
+}
+
+b {
+    font-weight: 900;
+}
+
+/* .img-logo {
+    width: 3.2rem;
+} */
+
+
+/* ==========  Navigation stuff  ========== */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.navbar li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.navbar li a:active,
+.navbar li a:hover {
+    background-color: 
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: var(--zelena);
+    /* font-family: 'Raleway'; */
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+
+
+/* ==========  Hero stuff  ========== */
+
+
+
+.main-logo a {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.article-main h3 {
+    color: var(--bela);
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* ==========  Heroes  ========== */
+
+.hero-image1 {
+    background-image: url('../images/sijalica.jpg');
+}
+
+.hero-image2 {
+    background-image: url('../images/development.jpg');
+}
+
+.hero-image3 {
+    background-image: url('../images/bojice.jpg');
+}
+
+.hero-image4 {
+    background-image: url('../images/telefon.jpg'); 
+}
+
+.hero-image1,
+.hero-image2, 
+.hero-image3, 
+.hero-image4 {
+   
+}
+
+
+/* ==========  Linkovi  ========== */
+
+.link-section {
+    background-color: var(--zelena);
+}
+
+/* =========  Web Development  ========== */
+.heading-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0.6em;
+}
+
+.heading {
+    align-self: center;
+}
+.heading h3 {
+    color: var(--zelena);
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.article p {
+    color: var(--bela);
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+.small-logo {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.small-logo img {
+    width: 5rem;
+}
+
+/* ==========  Triangle  ========== */
+
+.triangle-text {
+    color: var(--siva);
+    padding: 2rem 0.5rem;
+}
+
+.triangle img {
+    width: 5rem;
+}
+
+/* ==========  Web Design  ========== */
+
+.web-design {
+
+}
+
+.web-design-logo img {
+    width: 3.2rem;
+}
+
+/* ==========  Footer  ========== */
+
+footer {
+    background-color: var(--zelena);
+}
+
+.generalije {
+    color: var(--siva);
+    padding: 2rem;
+}
+
+.generalije a {
+    text-decoration: none;
+    color: var(--siva);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
